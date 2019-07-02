@@ -423,11 +423,7 @@ all odd and even values of the list respectively'''
 #
 # main()
 
-'''Write a program to sort the elements in ascending order using insertion sort
-1. sub_loop = check if the last number is higher of the current number
-if it's higher move it 1 place to the right, if it's lower, than assign the previous place to
-the current number
-2. main_loop = iterate over each number of the list'''
+'''Write a program to sort the elements in ascending order using insertion sort'''
 
 # import random
 #
