@@ -450,3 +450,96 @@ all odd and even values of the list respectively'''
 #
 # main()
 #
+
+'''Write a Python program to use binary search to find a key element in a list
+target for this exercise: 49'''
+
+# import math
+#
+# rand_nums = [2, 40, 41, 49, 55, 60, 66, 70, 73, 79]
+# target_num = 49
+#
+# def binary_search(arr, tar):
+#
+#     n = len(arr)
+#     left = 0
+#     right = n - 1
+#     mid = math.floor((left+right)/2)
+#     while left < right:
+#
+#         if arr[mid] < tar:
+#             left = mid + 1
+#         elif arr[mid] > tar:
+#             right = mid - 1
+#         return mid
+#
+#
+#
+# def main():
+#
+#     position = binary_search(rand_nums, target_num)
+#     print(f'The target number {target_num} is located in position {position}')
+#
+# main()
+
+'''Make a list of the first eight letters of the alphabet 
+then using the slice operation do the following:
+a. Print the first three letters of the alphabet
+b. Print any three letters from the middle
+c. Print the letters from any particular index to the end of the list'''
+
+# import math
+# import random
+# import operator
+# letters = 'a b c d e f g h'.split()
+# letters_a = letters[:3]
+# print(f'a: {letters_a}')
+# mid = math.floor(len(letters)/2)
+#
+# def rand_calc():
+#     ops = {'+':operator.add,
+#            '-':operator.sub,
+#          }
+#     num1 = mid
+#     num2 = 3
+#     op = random.choice(list(ops.keys()))  #op receives the value of + or -
+#     answer = ops.get(op)(num1,num2)     #get(op) becomes either operator.add or operator.sub
+#     return answer
+# answer = rand_calc()
+#
+# if answer > mid:
+#     letters_b = letters[mid:answer]
+# else:
+#     letters_b = letters[mid:answer:-1]
+# print(f'b: {letters_b}')
+# r_index = random.randint(0,(len(letters)-1))
+# letters_c = letters[r_index:]
+# print(f'c: {letters_c}')
+#
+
+'''Write a program to sort the elements in ascending order using selection sort'''
+
+
+#
+#
+# def sort_nums_selection(rand_nums):
+#     for index in range(len(rand_nums)-1,0,-1):
+#         position_max = 0
+#         for location in range(1,index+1):
+#             if rand_nums[location] > rand_nums[position_max]:
+#                 position_max = location
+#         temp = rand_nums[index]
+#         rand_nums[index] = rand_nums[position_max]
+#         rand_nums[position_max] = temp
+#     print(rand_nums)
+#
+#
+#
+#
+# def main():
+#     rand_nums = [34, 8, 64, 62, 73, 91, 68, 36, 47, 60]
+#     print(rand_nums)
+#     sort_nums_selection(rand_nums)
+#
+#
+# main()
