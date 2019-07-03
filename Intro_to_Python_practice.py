@@ -1,4 +1,4 @@
-''' 1. Chapter 2, Task 11, '''
+''' Chapter 2, Task 11, '''
 
 # KG to Pound
 #
@@ -6,7 +6,7 @@
 # kilogram = 2.20 * pound
 # print(f'Converted_Kilograms:{kilogram:.2f}.')
 
-'''2. ---Chapter 2, Task 12, Surface Area'''
+'''Chapter 2, Task 12, Surface Area'''
 
 # a = float(input('Side_A:'))
 # b = float(input('Side_B:'))
@@ -14,14 +14,14 @@
 # surface_area = 2*a*b + 2*b*c + 2*c*a
 # print(f'The Surface area of the prism is: {surface_area:.2f} cm^3')
 
-'''3. Chapter 2, Task 13, Plane speed '''
+'''Chapter 2, Task 13, Plane speed '''
 
 # distance = 395000
 # time = 9000
 # speed = float(distance/time)
 # print(f"{speed:.2f}m/s")
 
-'''4. ---Chapter 2, Task 14, Pool flow'''
+'''Chapter 2, Task 14, Pool flow'''
 
 # l = 12
 # w = 7
@@ -31,7 +31,7 @@
 # flow = volume // pump
 # print(f"The pool will be empty after {flow} hours")
 
-'''5. Chapter 2, Task 15, Pool flow'''
+'''Chapter 2, Task 15, Pool flow'''
 
 # celsius = float(input(('Celsius:')))
 # fahrenheit = celsius * 1.8 + 32
@@ -45,7 +45,7 @@
 # seconds = minutes*60
 # print(f'{days} days consist {seconds:.0f} seconds.')
 
-'''6. A car starts from a stoplight and is traveling  with a velocity  of 60 m/s. Find the acceleration if the car
+''' A car starts from a stoplight and is traveling  with a velocity  of 60 m/s. Find the acceleration if the car
 # used 20 seconds to reach out it's velocity.
 # Acceleration = Change of velocity / Time '''
 #
@@ -55,7 +55,7 @@
 # acc = (v_final - v_start)/time
 # print(f'The acceleration of the car is: {acc:.2f}m/s')
 
-"""7. Chapter 3.11
+""" 
 # Write a program to read the Richter magnitute value from the user and display the result for
 # the following conditions using if elif else"""
 #
@@ -80,7 +80,7 @@
 #     else:
 #         print(f'Causes unbelievable damage')
 
-'''8. Write a program; to display Pascal's triangle
+''' Write a program; to display Pascal's triangle
 Formula: n! / (k!(n-k)!)'''
 
 # import math
@@ -94,7 +94,7 @@ Formula: n! / (k!(n-k)!)'''
 #         print(f'The answer is: {num:.0f}')
 
 
-'''9. Write a program to display the following pattern: 1 22 333 4444 55555 and 1 21 321 4321 54321 using nested loops'''
+''' Write a program to display the following pattern: 1 22 333 4444 55555 and 1 21 321 4321 54321 using nested loops'''
 
 # for i in range(1,6):
 #     print(f'{i}'*i)
@@ -123,7 +123,7 @@ Formula: n! / (k!(n-k)!)'''
 #         sum += i
 # print(sum)
 
-'''10. Write a program to print the sum of the following series:
+''' Write a program to print the sum of the following series:
 a. 1 + 1/2 + 1/3 ... + 1/n
 b. 1/1 + 2**2/2 + 3**3/3 ... + n**n/n '''
 
@@ -135,7 +135,7 @@ b. 1/1 + 2**2/2 + 3**3/3 ... + n**n/n '''
 #     b += i**i/i
 # print(f'a = {a:.2f}', f'b = {b:.0f}')
 
-'''11. Write a program using functions to perform the arithmetic operations'''
+''' Write a program using functions to perform the arithmetic operations'''
 #
 # def add_num(a,b):
 #     sum = a + b
@@ -144,7 +144,7 @@ b. 1/1 + 2**2/2 + 3**3/3 ... + n**n/n '''
 # num_2 = 6
 # add_num(num_1, num_2)
 
-'''12. Write a program to find the largest of the three numbers using functions'''
+''' Write a program to find the largest of the three numbers using functions'''
 
 # def maxings(a,b,c):
 #     print(max(a,b,c))
@@ -159,7 +159,7 @@ b. 1/1 + 2**2/2 + 3**3/3 ... + n**n/n '''
 #         print(b)
 # maxings(5,9,11)
 
-'''13. Write a Python program using functions to find the value of nPk (permutaions) and nCk (combinations)'''
+''' Write a Python program using functions to find the value of nPk (permutaions) and nCk (combinations)'''
 # import math
 # while True:
 #
@@ -178,7 +178,7 @@ b. 1/1 + 2**2/2 + 3**3/3 ... + n**n/n '''
 #         print('n MUST BE BIGGER THAN k')
 #         print('-'*40)
 
-'''14. Write a program using functions to display Pascal's triangle'''
+''' Write a program using functions to display Pascal's triangle'''
 
 # import math
 # while True:
@@ -196,7 +196,7 @@ b. 1/1 + 2**2/2 + 3**3/3 ... + n**n/n '''
 #     except ValueError:
 #         print('Oops, this is not a number. Try again:')
 
-'''15. Write a program using functions to print harmonic progression series and its sum till N terms '''
+''' Write a program using functions to print harmonic progression series and its sum till N terms '''
 
 
 # def harmonic_progression(a,d,n):
@@ -209,7 +209,7 @@ b. 1/1 + 2**2/2 + 3**3/3 ... + n**n/n '''
 #     print(f'Sum: {sum_terms:.2f}')
 # harmonic_progression(1,2,5)
 
-'''16. Write a program using functions to do the following tasks:
+''' Write a program using functions to do the following tasks:
         a. Convert milliseconds to hours, minutes and seconds
         b. Compute a sales commission, given the sales amount and the commission rate 
         c. Convert Celsius to Fahrenheit
@@ -229,7 +229,7 @@ b. 1/1 + 2**2/2 + 3**3/3 ... + n**n/n '''
 #     print(f'Commission: {sales_commission}')
 # sales_com(200000, 0.05)
 
-'''17. Write a function called rotate_word that takes a string and an integer as parameters,
+'''Write a function called rotate_word that takes a string and an integer as parameters,
  and that function should return a new string containing the letters from the original string
  "rotated" by the given amount. For example, "cheer" rotated by 7 is "jolly" and "melon" rotated by -10 is "cubed"'''
 
@@ -251,7 +251,7 @@ b. 1/1 + 2**2/2 + 3**3/3 ... + n**n/n '''
 #     alphabet = string.ascii_lowercase*2
 #     main()
 
-'''18. Write a function that takes a string as an argument and displays the letters backward, one per line'''
+''' Write a function that takes a string as an argument and displays the letters backward, one per line'''
 
 # def let_backward(word):
 #
@@ -265,7 +265,7 @@ b. 1/1 + 2**2/2 + 3**3/3 ... + n**n/n '''
 #
 # main()
 
-'''19. Write a program to access the last character of the string with the help of len() function'''
+''' Write a program to access the last character of the string with the help of len() function'''
 
 # def last_char(word):
 #     word_inserted = len(word) - 1
@@ -277,7 +277,7 @@ b. 1/1 + 2**2/2 + 3**3/3 ... + n**n/n '''
 #
 # main()
 
-'''20. Ask the user for a string and then for a number. Print out that string. that many times. (For example,
+''' Ask the user for a string and then for a number. Print out that string. that many times. (For example,
 if the string is Python and the number is 3 you should print out PythonPythonPython.)'''
 
 # def multi_word(word,num):
@@ -290,7 +290,7 @@ if the string is Python and the number is 3 you should print out PythonPythonPyt
 # #
 # # main()
 
-'''21. Write a program that reads the date in the format (dd/mm/yyyy) and replaces the "/" with "-" 
+''' Write a program that reads the date in the format (dd/mm/yyyy) and replaces the "/" with "-" 
 and displays the date in (dd-mm-yyyy) format'''
 
 # import datetime
@@ -307,7 +307,7 @@ and displays the date in (dd-mm-yyyy) format'''
 # print(f'After: {date_converted}')
 
 #
-# '''Write a function that finds the number of occurrences of a specified character in a string'''
+ '''Write a function that finds the number of occurrences of a specified character in a string'''
 # def check_char(character, word):
 #     count = 0
 #     for each_letter in word:
